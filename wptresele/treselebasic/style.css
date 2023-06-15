@@ -1,0 +1,188 @@
+/*
+Theme Name: Tres Ele Basic Theme
+Theme URI: https://3lstrategy.com/themes/treseletheme/
+Author: Leonardo Llanes with a tons of help of the WordPress team
+Author URI: https://3lstrategy.com
+Description: pending
+Tags: pending
+Version: 0.1
+Requires at least: -
+Tested up to: 8.0.28
+Requires PHP: 8.0.28
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: treselebasic
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+:root {
+  --dark-blue: #213752;
+  --light-blue: #004fab;
+  --light-gray: #eef1f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "PT Sans";
+}
+
+header {
+  /* border-bottom: 1px solid var(--light-blue);*/
+}
+
+#header_announcement {
+  background-color: var(--dark-blue);
+}
+
+#header_announcement h3 {
+  color: white;
+}
+
+#nav_wrapper {
+  /* border-bottom: 1px solid var(--dark-blue);*/
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.navbar-brand img {
+  width: 70px;
+  height: 70px;
+}
+
+.blue-ribbon {
+  background-color: var(--dark-blue);
+  margin: 0;
+}
+#footer-backtop {
+  background-color: var(--light-blue);
+}
+
+#footer-backtop a {
+  color: white;
+}
+
+footer {
+  border-top: 1px solid var(--dark-blue);
+}
+
+#footer-fourcol {
+  background-color: var(--dark-blue);
+}
+
+#footer-siteinfo {
+  background-color: var(--dark-blue);
+}
+
+#footer-fourcol li {
+  color: white;
+}
+
+#footer-fourcol li a {
+  color: white;
+}
+
+#footer_logo img {
+  width: 50px;
+}
+
+#footer-siteinfo a {
+  color: white;
+}
+
+#sidebar-right {
+  border-left: 1px solid var(--light-gray);
+}
+
+#sidebar-left {
+  border-right: 1px solid var(--light-gray);
+}
+
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 0px;
+  list-style: none;
+  background-color: var(--light-blue);
+  border-radius: 4px;
+}
+.breadcrumb a {
+  color: white;
+  text-decoration: none;
+}
+
+.breadcrumb {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-copy {
+  color: white;
+}
+
+.footer-email {
+  color: white;
+}
+
+.footer-sidebar {
+  color: white;
+}
+
+.social_list {
+  list-style-type: none;
+}
+
+.footer-social-img {
+  width: 60px;
+}
+
+.social-container--white {
+  background-color: white;
+}
+
+#error-404 h1 {
+  font-size: 5rem !important;
+}
+.search_button--blue {
+  color: white;
+  background-color: var(--light-blue);
+}
+
+#main-feature {
+  background-color: var(--light-blue);
+}
+
+#main-feature p {
+  color: white;
+}
+
+#main-feature h3 {
+  color: white;
+}
+
+/*all devices (portrait phones, less than 576px)*/
+/* No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}
